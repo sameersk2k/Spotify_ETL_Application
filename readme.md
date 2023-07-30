@@ -1,4 +1,7 @@
-# Spotify Analysis
+# Spotify ETL Project - Playlist Recommendation - AWS, Spotify API, Terraform and Python
+
+<img width="766" alt="Screenshot 2023-07-30 at 7 19 31 PM" src="https://github.com/sameersk2k/Spotify_ETL_Application/assets/115322069/15a490a5-af13-4b12-9d68-eb91db9b6cc5">
+
 - This is a project focused on learning how to built ETL Pipeline in AWS and deploy using Terraform.
 - We have taken Spotify API and extracted data to provide new playlists suggestions based on a provided old playlist of an individual
 - One should have an IAM user initialized before starting the project.
@@ -30,9 +33,6 @@ Run the scripts with a dictionary of your faovurite artists or playlists to gath
 
 <a name="projectarchitecture"></a>
 ## Project Architecture 
-
-<img width="766" alt="Screenshot 2023-07-30 at 7 19 31 PM" src="https://github.com/sameersk2k/Spotify_ETL_Application/assets/115322069/d1d87d90-2e9f-47e8-bf49-957d600dc528">
-
 
 The Terraform scripts build:
 - A lambda function with the analysis code
