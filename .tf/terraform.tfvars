@@ -1,0 +1,4 @@
+TF_VAR_SPOTIPY_CLIENT_ID     = ""
+TF_VAR_SPOTIPY_CLIENT_SECRET = ""
+TF_VAR_ACCESS_KEY            = ""
+TF_VAR_SECRET_KEY            = ""
