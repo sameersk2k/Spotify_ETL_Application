@@ -8,6 +8,7 @@
 1. [Installation](#installation) 
 2. [Usage](#usage)
 3. [Project Architecture](#projectarchitecture)
+4. [Important Commands/steps](#important)
 
 <a name="introduction"></a>
 ## Introduction 
@@ -30,6 +31,8 @@ Run the scripts with a dictionary of your faovurite artists or playlists to gath
 <a name="projectarchitecture"></a>
 ## Project Architecture 
 
+<img width="766" alt="Screenshot 2023-07-30 at 7 19 31 PM" src="https://github.com/sameersk2k/Spotify_ETL_Application/assets/115322069/d1d87d90-2e9f-47e8-bf49-957d600dc528">
+
 
 The Terraform scripts build:
 - A lambda function with the analysis code
@@ -38,6 +41,7 @@ The Terraform scripts build:
 
 This will generate a datalake of Spotify data locally or in S3.
 
+<a name="important"></a>
 ### Important points
 
 - create s3 bucket before deploying lambda function
